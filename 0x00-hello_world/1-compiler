@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
 gcc —c SCFILE
-=======
-gcc -c $CFILE
->>>>>>> 1-compiler
