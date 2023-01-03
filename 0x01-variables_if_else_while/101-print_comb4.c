@@ -8,11 +8,11 @@
  */
 
 int main(void)
-	
+
 {
-	
+
 	int d, p, q;
-	
+
 	for (d = '0'; d < '9'; d++)
 	{
 
@@ -21,8 +21,12 @@ int main(void)
 
 	for (q = d + 1; q < '9'; q++)
 	{
-	if (d == '7' && p == '8')
+	if ((p != d) != q)
 	{
+	putchar(d);
+	putchar(p);
+	putchar(q);
+	if (d == '7' && p == '8')
 	continue;
 	putchar(',');
 	putchar(' ');
