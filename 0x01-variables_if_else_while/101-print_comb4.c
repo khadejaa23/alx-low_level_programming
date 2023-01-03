@@ -16,10 +16,10 @@ int main(void)
 	for (d = '0'; d < '9'; d++)
 	{
 
-	for (p = d + 1; p < '9'; p++)
+	for (p = d + 1; p <= '9'; p++)
 	{
 
-	for (q = d + 1; q < '9'; q++)
+	for (q = d + 1; q <= '9'; q++)
 	{
 	if ((p != d) != q)
 	{
