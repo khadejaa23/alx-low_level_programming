@@ -7,7 +7,7 @@
 int _strlen_recursion(char *s)
 {
 
-/*Basw condition*/
+/*Base condition*/
 if (*s == '\0')
 return (0);
 
