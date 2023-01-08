@@ -1,35 +1,43 @@
+/*
+ * File: 3-strspn.c
+ * Auth: For everyone who is trying to learn sam
+ */
+
 #include "main.h"
 
 /**
- * _strspn - Entry point
- * @s: input
- * @accept: input
- * Return: Always 0 (Success)
+ * _strspn - Gets the length of prefix substring.
+ * @s: The string to be searched.
+ * @accept: The prefix to be measured.
+ *
+ * Return: The number of value in s which
+ *         consist only of value from accept..
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, n, value, check;
+	unsigned int value = 0;
 
-	value = 0;
+	int n;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (s[i])
 	{
-		check = 0;
-		for (n = 0; accept[n] != '\0'; n++)
+
+		for (n = 0; accept[n]; n++)
 		{
-			if (accept[n] == s[i])
+			if (s[i] == accept[n])
 			{
 				value++;
-				check = 1;
+				break;
 			}
+
+			else if (accept[n + 1] == '\0')
+				return (value);
 		}
 
-		if (check == 0)
-		{
-			check++;
-		}
+		s++;
+
 	}
 
-	return (i);
+	return (value);
 }
