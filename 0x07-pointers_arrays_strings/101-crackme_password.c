@@ -1,4 +1,0 @@
-/**
- * [stderr]: [Anything]
- */
-abc123
