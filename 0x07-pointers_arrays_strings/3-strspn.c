@@ -1,6 +1,5 @@
 /*
  * File: 3-strspn.c
- * Auth: For everyone who is trying to learn sam
  */
 
 #include "main.h"
