@@ -10,34 +10,34 @@
  * @s: The string to be searched.
  * @accept: The prefix to be measured.
  *
- * Return: The number of value in s which
- *         consist only of value from accept..
+ * Return: The number of bytes in s which
+ *         consist only of bytes from accept.
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int value = 0;
+	unsigned int bytes = 0;
 
-	int n;
+	int index;
 
-	while (s[i])
+	while (*s)
 	{
 
-		for (n = 0; accept[n]; n++)
+		for (index = 0; accept[index]; index++)
 		{
-			if (s[i] == accept[n])
+			if (*s == accept[index])
 			{
-				value++;
+				bytes++;
 				break;
 			}
 
-			else if (accept[n + 1] == '\0')
-				return (value);
+			else if (accept[index + 1] == '\0')
+				return (bytes);
 		}
 
 		s++;
 
 	}
 
-	return (value);
+	return (bytes);
 }
