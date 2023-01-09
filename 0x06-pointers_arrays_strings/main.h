@@ -2,14 +2,11 @@
 #define MAIN_H
 
 #include <stdio.h>
-
 /**
  * File: main.h
  * Desc: Header file containing prototybes for all functions
- 
- *               used in the 0x06. C - More pointers, arrays and strings directory.
+ *       used in the 0x06.c - More pointers, arrays and strings directory.
  */
-
 
 
 int _putchar(char c);
