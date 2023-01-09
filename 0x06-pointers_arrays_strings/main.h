@@ -3,9 +3,12 @@
 
 /**
  * File: main.h
- * Description: Header file containing prototybes for all functions
- *               used in 0x06. C - More pointers, arrays and strings directory.
+ * Desc: Header file containing prototybes for all functions
+ 
+ *               used in the 0x06. C - More pointers, arrays and strings directory.
  */
+
+
 
 int _putchar(char c);
 
@@ -15,7 +18,7 @@ char *_strncat(char *dest, char *src, int n);
 
 char *_strncpy(char *dest, char *src, int n);
 
-int *_strmp(char *s1, char *s2);
+int *_strcmp(char *s1, char *s2);
 
 void reverse_array(int *a, int n);
 
