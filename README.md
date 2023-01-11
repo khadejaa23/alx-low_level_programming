@@ -1,2 +1,1 @@
-# alx-low_level_programming
-Coding in C 
+README for 0x09-static_libraries
