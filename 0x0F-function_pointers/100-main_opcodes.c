@@ -1,9 +1,8 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - print its own opcpdes
+ * main - prints its own opcodes
  * @argc: number of arguments
  * @argv: array of arguments
  *
