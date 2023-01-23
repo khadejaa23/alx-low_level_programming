@@ -23,8 +23,8 @@ int main(int argc, char *argv[])
 
 	if (bytes < 0)
 	{
-		 printf("Error\n");
-		 exit(2);
+		printf("Error\n");
+		exit(2);
 	}
 
 	arr = (char *)main;
@@ -35,10 +35,9 @@ int main(int argc, char *argv[])
 		{
 			printf("%02hhx\n", arr[i]);
 			break;
-		
 		}
 		printf("%02hhx ", arr[i]);
-	
+
 	}
 	return (0);
 }
