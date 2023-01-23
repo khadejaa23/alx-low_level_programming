@@ -48,7 +48,7 @@ char *_initialize_array(char *ar, int lar)
 
 	for (i = 0; i < lar; i++)
 		ar[i] = '0';
-	ar[lar] = '\0';
+		ar[lar] = '\0';
 	return (ar);
 }
 
@@ -111,7 +111,7 @@ int main(int argc, char *argv[])
 		if (j < 0)
 		{
 			if (nout[0] != '0')
-				break;
+			break;
 			lnout--;
 			free(nout), nout = malloc(lnout + 1), nout = _initialize_array(nout, lnout);
 			k = lnout - 1, i = ln1 - 1, j = ln2 - 1, ca = addl = 0;
@@ -122,4 +122,6 @@ int main(int argc, char *argv[])
 			addl = add / 10, nout[k] = (add % 10) + '0';
 		}
 	}
+	printf("%s\n", nout);
+	return (0);
 }
