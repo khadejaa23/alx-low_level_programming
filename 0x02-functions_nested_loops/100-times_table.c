@@ -5,7 +5,6 @@
  * @n: The number to start printint from
  * Return: Always 0.
  */
-
 void print_times_table(int n)
 
 {
