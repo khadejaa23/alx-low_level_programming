@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_to_98 - print all natural number from n to 98
- * @n: The number to start printint from
- * Return: Always 0.
+ * print_times_table - prints the times table of the input,
+ * starting with 0.
+ * @n: The value of the times table to be printed.
  */
 
 void print_times_table(int n)
