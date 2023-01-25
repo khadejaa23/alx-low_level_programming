@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _islower(int c)
+int _abs(int n)
 {
-	return (c >= 'a' && c <= 'z');
+	return abs(n);
 }
