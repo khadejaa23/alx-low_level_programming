@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * flip_bits - Entry point
- * Description: Counts the number of bits needed to be
- 		flipped to get from one number to another.
+ * flip_bits: Counts the number of bits needed to be
+ 	       flipped to get from one number to another.
  * @n: The number.
  * @m: The number to flip n to.
  *
