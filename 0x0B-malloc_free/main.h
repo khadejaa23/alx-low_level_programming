@@ -3,8 +3,7 @@
 
 /**
  * File: main.h
- * Desc: Header file containing prototypes for all functions
- *       used in the 0x0A-malloc_free directory.
+ * Desc: Header file containing prototypes for all functions.
  */
 
 int _putchar(char c);
